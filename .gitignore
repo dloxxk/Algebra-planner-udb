@@ -1,0 +1,13 @@
+# Secretos — NUNCA subir a GitHub
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Base de datos local (si usas SQLite en dev)
+*.db
